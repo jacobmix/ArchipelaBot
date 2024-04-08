@@ -1,19 +1,10 @@
 # ArchipelaBot
 A Discord bot designed to provide Archipelago-specific functionality.
-Find it in use at the [Archipelago Discord](https://discord.gg/B5pjMYy).
-
-Install it to your server by clicking here:  
-[Install ArchipelaBot on your server!](https://discord.com/oauth2/authorize?client_id=1075564303610023967&scope=bot&permissions=274878032960)
 
 ## Current Features
-- Automatically delete ROM files, and compressed files containing them
-- Generate single-player or multiplayer games using the `generate` command
 - Connect to a running Archipelago server as a spectator and print messages to a Discord channel
-
-## Supported Games
-All games supported by the Multiworld Multi-Game Randomizer
-[Archipelago](https://github.com/ArchipelagoMW/Archipelago)
-are compatible and have full MultiWorld compatibility with each other.
+- Messages use colored text where different items types get different colors
+- Works for sync & async games
 
 # Self-Hosting
 
@@ -49,7 +40,7 @@ to ArchipelaBot:
 ## Setup
 ```shell script
 # Clone the repo
-git clone https://github.com/LegendaryLinux/ArchipelaBot
+git clone https://github.com/evilwb/ArchipelaBot.git
 
 # Enter its directory
 cd ArchipelaBot
