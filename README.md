@@ -15,11 +15,20 @@ A Discord bot designed to provide Archipelago-specific functionality.
 A `config.json` file is required to be present in the base directory of the repository. This file should contain
 your Discord bot's secret key.
 
+Optionally, you can provide server connection info that will be used if not provided through the Discord 
+ap-conenct command arguments.
+
 Example config:
 ```json
 {
   "token": "discord-bot-token",
-  "clientId": "application-client-id"
+  "clientId": "application-client-id",
+
+  // Can be used to specify AP server info so you don't have to provide arguments to the ap-connect command.
+  "serverAddress": "127.0.0.1",
+  "port": "12345",
+  "slotName": "slotname",
+  "password": "secret"
 }
 ```
 
