@@ -66,6 +66,8 @@ node bot.js
 
 # Archipelago Setup
 
+## Overview
+
 Here’s the pin I use on my server for Archipelago:
 > - IP/DDnS & Port: __IP_HERE:38281 (No Passwords)__
 >   - ``/connect IP_HERE:38281``
@@ -79,7 +81,7 @@ Here’s the pin I use on my server for Archipelago:
 >   - Archipelago Manual: https://discord.gg/T5bcsVHByx
 >   - Archipelago Mature: https://discord.gg/Sbhy4ykUKn
 > - News, and APWorlds: https://multiworld.news/index.html | <https://multiworld.news/apworlds.html>
-> - AP log/chat overlay for OBS: <https://github.com/LegendaryLinux/APSpectator> Recommended CSS: <Link to post>
+> - AP log/chat overlay for OBS: <https://github.com/LegendaryLinux/APSpectator> (CSS setup [below](https://github.com/jacobmix/ArchipelaBot/edit/master/README.md#overlay-setup))
 > - Site:
 >   - Home: <https://archipelago.gg/>
 >   - Sitemap: <https://archipelago.gg/sitemap>
@@ -95,6 +97,8 @@ Here’s the pin I use on my server for Archipelago:
 > - If statements for option if seed rolls in certain ways: <https://archipelago.gg/tutorial/Archipelago/triggers/en>
 > - Check yaml for errors here: <https://archipelago.gg/check>
 >   - Don't use Tab indents. Use two normal spaces. Also try using "quotation marks" around stuff that isn't plain numbers or true/false.
+
+## player, and host YAML settings
 
 Adding a Clique world to your yaml example:
 ```
@@ -125,6 +129,9 @@ game: Clique
 name: xXxPlayerSlayer25xXx_button
 ```
 Note: Host needs ``plando_options: "bosses, items"`` in their host.yaml
+
+## Bot info
+
 Bot in Archipelago-Log channel is a modified version of this ArchipelaBot fork: <https://github.com/evilwb/ArchipelaBot/commit/794ea7a5ac9f4a1f0a718b7c97689d13a4131258>
 Also here's the spectator yaml the bot uses (won’t see responses to player hints):
 ```
@@ -227,13 +234,6 @@ if defined newestarchipelago (
 :end
 endlocal
 ```
-Some stuff you might need installed or checkout for running or compiling bot/games/code:
-Git: <https://www.git-scm.com/downloads>
-Node.js & npm: <https://nodejs.org/en/download/prebuilt-installer>
-Python 3.11.x (Do not get 3.12.0 or above yet. Or below 3.8.0): <https://www.python.org/downloads/release/python-3119/>
-Environment editor: <https://www.rapidee.com/en/download>
-.NET: <https://versionsof.net/framework/>
-MSYS2 (CMake & Mingw-w64): <https://www.msys2.org/>
 
 Discord ArchipelaBot : <https://github.com/evilwb/ArchipelaBot/commit/794ea7a5ac9f4a1f0a718b7c97689d13a4131258> (Remember to remove ``\\`` line from ``config.json``.)
 Discord online bot manager: <https://discord.com/developers/applications>
@@ -242,6 +242,18 @@ Write to txt file: "Application ID" & "Public Key" & "Client Secret". Under "Bot
 Code here: <https://github.com/jacobmix/ArchipelaBot/blob/master/bot.js>
 Note:  Change ``const channel = client.channels.cache.get('1236668389796089877');`` to your own channel ID:
 (might have to restart Discord after bot joins your server to see slash commands)
+
+## Tools & Frameworks
+
+Some stuff you might need installed or checkout for running or compiling bot/games/code:
+Git: <https://www.git-scm.com/downloads>
+Node.js & npm: <https://nodejs.org/en/download/prebuilt-installer>
+Python 3.11.x (Do not get 3.12.0 or above yet. Or below 3.8.0): <https://www.python.org/downloads/release/python-3119/>
+Environment editor: <https://www.rapidee.com/en/download>
+.NET: <https://versionsof.net/framework/>
+MSYS2 (CMake & Mingw-w64): <https://www.msys2.org/>
+
+## Overlay setup
 
 AP log/chat overlay browser source for OBS: <https://github.com/LegendaryLinux/APSpectator> (This doesn't have colors for progression or such so you can stick with a text client if you wanna keep that)
 Set URL to: `...\APSpectator-master\public\index.html?server=IP_HERE:38281&player=PLAYER_HERE&hideui=1`
