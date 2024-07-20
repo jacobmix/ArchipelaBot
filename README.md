@@ -235,7 +235,8 @@ if defined newestarchipelago (
 endlocal
 ```
 
-Discord ArchipelaBot : <https://github.com/evilwb/ArchipelaBot/commit/794ea7a5ac9f4a1f0a718b7c97689d13a4131258> (Remember to remove ``\\`` line from ``config.json``.)  
+Discord ArchipelaBot : <https://github.com/evilwb/ArchipelaBot/commit/794ea7a5ac9f4a1f0a718b7c97689d13a4131258>  
+(Remember to remove ``\\`` line from ``config.json``.)  
 Discord online bot manager: <https://discord.com/developers/applications>  
 Write to txt file: "Application ID" & "Public Key" & "Client Secret". Under "Bot" Give "Intents"  
 ``bot.js`` i replaced ``client.once(Events.ClientReady, async () => {`` with the full *tweaked* command basically.  
