@@ -247,7 +247,7 @@ Note:  Change ``const channel = client.channels.cache.get('1236668389796089877')
 
 ## Tools & Frameworks
 
-Some stuff you might need installed or checkout for running or compiling bot/games/code:
+Some stuff you might need installed or checkout for running or compiling bot/games/code:  
 Git: <https://www.git-scm.com/downloads>  
 Node.js & npm: <https://nodejs.org/en/download/prebuilt-installer>  
 Python 3.11.x (Do not get 3.12.0 or above yet. Or below 3.8.0): <https://www.python.org/downloads/release/python-3119/>  
