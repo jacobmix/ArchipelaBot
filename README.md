@@ -132,7 +132,8 @@ Note: Host needs ``plando_options: "bosses, items"`` in their host.yaml
 
 ## Bot info
 
-Bot in Archipelago-Log channel is a modified version of this ArchipelaBot fork: <https://github.com/evilwb/ArchipelaBot/commit/794ea7a5ac9f4a1f0a718b7c97689d13a4131258>  
+Bot in Archipelago-Log channel is a modified version of this ArchipelaBot fork:  
+<https://github.com/evilwb/ArchipelaBot/commit/794ea7a5ac9f4a1f0a718b7c97689d13a4131258>  
 Also here's the spectator yaml the bot uses (won’t see responses to player hints):  
 ```
 name: Spectator
@@ -256,7 +257,8 @@ MSYS2 (CMake & Mingw-w64): <https://www.msys2.org/>
 
 ## Overlay setup
 
-AP log/chat overlay browser source for OBS: <https://github.com/LegendaryLinux/APSpectator> (This doesn't have colors for progression or such so you can stick with a text client if you wanna keep that)  
+AP log/chat overlay browser source for OBS: <https://github.com/LegendaryLinux/APSpectator>  
+(This doesn't have colors for progression or such so you can stick with a text client if you wanna keep that)  
 Set URL to: `...\APSpectator-master\public\index.html?server=IP_HERE:38281&player=PLAYER_HERE&hideui=1`  
 Browser Source CSS to remove margin/padding/border, and makes it slightly see-through:  
 ```css
