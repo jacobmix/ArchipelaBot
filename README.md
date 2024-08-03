@@ -74,7 +74,7 @@ Here’s the pin I use on my server for Archipelago:
 > - Clique: http://clique.pharware.com (Make sure it's not HTTPS. **HTTP ONLY!** NO ***S***! May need to paste link into incognito)
 > - Install latest: <https://github.com/ArchipelagoMW/Archipelago/releases> 
 >   - For clients, and game support. (You mostly need to run the game THEN client or only the client. But when you connect can be different)
->   - Most games will prompt for name, and password after putting in IP and Port.
+>   - Most games will prompt for name, and password after putting in IP and Port. (Press ENTER. Don't use the ``Command:`` button)
 >   - Else connect with: ``/connect <SERVER_IP>:<SERVER_PORT> <SLOT_NAME> password:<PASSWORD>``
 > - Archipelago Discords:
 >   - Archipelago: https://discord.gg/8Z65BR2
