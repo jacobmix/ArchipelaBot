@@ -70,7 +70,7 @@ client.once(Events.ClientReady, async () => {
   console.info(`Connected to Discord. Active in ${client.guilds.cache.size} guilds.`);
 
   // run command after startup?
-  const channel = client.channels.cache.get('1236668389796089877');
+  const channel = client.channels.cache.get('CHANNEL_ID_HERE');
 
     //async execute() {
         serverAddress = null;
