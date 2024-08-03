@@ -87,10 +87,12 @@ Here’s the pin I use on my server for Archipelago:
 >   - Sitemap: <https://archipelago.gg/sitemap>
 > - Official Games: <https://archipelago.gg/games>
 >   - Check the game's Setup Guide webpage or Discord channel for how to setup game, tacker/mod/ect.
-> - Detailed & Weighted options yaml: <https://archipelago.gg/weighted-options> 
+> - Detailed & Weighted options yaml: <https://archipelago.gg/weighted-options>
 >   - Make a Yaml from here, export, and send to host. They need it placed here: ``C:\ProgramData\Archipelago\Players`` (Pick just one game or what you play is random)
 >   - You can combine games/yamls with ``---`` just use different ``name``. (There's more advanced options explained below)
->   - Note: If using a custom/non-official APWorld the host needs it in ``C:\ProgramData\Archipelago\lib\worlds``. Plus rom/host.yaml setting/ect in root.
+>   - Note: If using a custom/non-official APWorld you need the same .apworld files as host used to generate.
+>   - Click on an .apworld file to install it to ``C:\ProgramData\Archipelago\custom_worlds`` if it fails move to ``C:\ProgramData\Archipelago\lib\worlds`` instead. (Remove duplicates)
+>   - It's also important to have the proper rom/host.yaml setting/ect in root.
 >   - Above is also needed to generate yaml with "Generate Template Options" you can then edit. Also check Discord for the right corresponding mod/ect files.
 > - Advanced yaml options: <https://archipelago.gg/tutorial/Archipelago/advanced_settings/en>
 > - Planning settings (force item/locations): <https://archipelago.gg/tutorial/Archipelago/plando/en>
