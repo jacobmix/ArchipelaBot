@@ -102,7 +102,7 @@ Here’s the pin I use on my server for Archipelago:
 
 ## player, and host YAML settings
 
-Adding a Clique world to your yaml example:  
+Adding a Clique world to your yaml example (Note: Slot name can only be up to 16 characters):  
 ```
 requires:
   version: 0.4.6 # Version of Archipelago required for this yaml to work as expected.
