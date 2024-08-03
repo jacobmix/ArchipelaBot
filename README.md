@@ -244,7 +244,7 @@ Discord online bot manager: <https://discord.com/developers/applications>
 Write to txt file: "Application ID" & "Public Key" & "Client Secret". Under "Bot" Give "Intents"  
 ``bot.js`` i replaced ``client.once(Events.ClientReady, async () => {`` with the full *tweaked* command basically.  
 Code here: <https://github.com/jacobmix/ArchipelaBot/blob/master/bot.js>  
-Note:  Change ``const channel = client.channels.cache.get('1236668389796089877');`` to your own channel ID:  
+Note:  Change ``const channel = client.channels.cache.get('CHANNEL_ID_HERE');`` to your own channel ID:  
 (might have to restart Discord after bot joins your server to see slash commands)  
 
 ## Tools & Frameworks
