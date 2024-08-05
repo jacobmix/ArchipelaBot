@@ -261,7 +261,7 @@ MSYS2 (CMake & Mingw-w64): <https://www.msys2.org/>
 
 AP log/chat overlay browser source for OBS: <https://github.com/LegendaryLinux/APSpectator>  
 (This doesn't have colors for progression or such so you can stick with a text client if you wanna keep that)  
-Set URL to: `...\APSpectator-master\public\index.html?server=IP_HERE:38281&player=PLAYER_HERE&hideui=1`  
+Set URL to: `file:///C:/Users/.../APSpectator-master/public/index.html?server=IP_HERE:38281&player=PLAYER_HERE&hideui=1`  
 Browser Source CSS to remove margin/padding/border, and makes it slightly see-through:  
 ```css
 body {
