@@ -75,7 +75,7 @@ Here’s the pin I use on my server for Archipelago:
 > - Install latest: <https://github.com/ArchipelagoMW/Archipelago/releases> 
 >   - For clients, and game support. (You mostly need to run the game THEN client or only the client. But when you connect can be different)
 >   - Most games will prompt for name, and password after putting in IP and Port. (Press ENTER. Don't use the ``Command:`` button)
->   - Else connect with: ``/connect <SERVER_IP>:<SERVER_PORT> <SLOT_NAME> password:<PASSWORD>``
+>   - Else connect with: <SLOT_NAME>:<PASSWORD_OR_None>@<SERVER_IP>:<SERVER_PORT> or ``/connect <SERVER_IP>:<SERVER_PORT> <SLOT_NAME> password:<PASSWORD>``
 > - Archipelago Discords:
 >   - Archipelago: https://discord.gg/8Z65BR2
 >   - Archipelago Manual: https://discord.gg/T5bcsVHByx
