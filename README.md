@@ -81,7 +81,7 @@ Here’s the pin I use on my server for Archipelago:
 >   - Archipelago Manual: https://discord.gg/T5bcsVHByx
 >   - Archipelago Mature: https://discord.gg/Sbhy4ykUKn
 > - News, and APWorlds: https://multiworld.news/index.html | <https://multiworld.news/apworlds.html>
-> - AP log/chat overlay for OBS: <https://github.com/LegendaryLinux/APSpectator> (CSS setup [below](https://github.com/jacobmix/ArchipelaBot/tree/master?tab=readme-ov-file#overlay-setup))
+> - AP log/chat overlay for OBS: <https://github.com/LegendaryLinux/APSpectator> Use: [FIX](https://github.com/jacobmix/APSpectator/tree/wss) (CSS setup [below](https://github.com/jacobmix/ArchipelaBot/tree/master?tab=readme-ov-file#overlay-setup))
 > - Site:
 >   - Home: <https://archipelago.gg/>
 >   - Sitemap: <https://archipelago.gg/sitemap>
