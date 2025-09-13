@@ -91,7 +91,7 @@ Here’s the pin I use on my server for Archipelago:
 >   - Make a Yaml from here, export, and send to host. They need it placed here: ``C:\ProgramData\Archipelago\Players`` (Pick just one game or what you play is random)
 >   - You can combine games/yamls with ``---`` just use different ``name``. (There's more advanced options explained below)
 >   - Note: If using a custom/non-official APWorld you need the same .apworld files as host used to generate.
->   - Click on an .apworld file to install it to ``C:\ProgramData\Archipelago\custom_worlds`` if it fails move to ``C:\ProgramData\Archipelago\lib\worlds`` instead. (Remove duplicates)
+>   - Click on an .apworld file to install it to ``C:\ProgramData\Archipelago\custom_worlds`` Then restart. Official apworlds are in: ``C:\ProgramData\Archipelago\lib\worlds`` instead. (Remove duplicates. Check by running ``ArchipelagoLauncherDebug.exe``)
 >   - It's also important to have the proper rom/host.yaml setting/ect in root.
 >   - Above is also needed to generate yaml with "Generate Template Options" you can then edit. Also check Discord for the right corresponding mod/ect files.
 > - Advanced yaml options: <https://archipelago.gg/tutorial/Archipelago/advanced_settings/en>
