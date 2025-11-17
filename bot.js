@@ -102,7 +102,7 @@ client.once(Events.ClientReady, async () => {
         if (serverAddress === 'archipelago.gg') {
           return channel.send({
             content: 'This bot connot be used with the official Archipelago server. ' +
-              'Please to a self hosted server.',
+              'Please use a self hosted server.',
             ephemeral: true,
           });
         }
@@ -137,11 +137,16 @@ client.once(Events.ClientReady, async () => {
             // Until then, the following will run forever.
 
             // Make this run until not longer connected to the AP server.
-	          while (APInterface.APClient.status === 'Connected') {	
+	          //while (APInterface.APClient.status === 'Connected') {	
               //console.log("Still connected to server");
-              await new Promise((resolve) => (setTimeout(resolve, 5000)));
-		        }
+              //await new Promise((resolve) => (setTimeout(resolve, 5000)));
+		        //}
 
+            // Old loop can be removed; rely on ArchipelagoInterface reconnect instead
+	          while (APInterface.APClient.status === 'Connected') {
+              	await new Promise(resolve => setTimeout(resolve, 5000));
+	          }
+			  
             await channel.send({
 		          content: `Disconnected from AP server at ${config.serverAddress}.`,
 		          ephemeral: false,
